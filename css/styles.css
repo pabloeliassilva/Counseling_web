@@ -1,0 +1,6 @@
+:root { --bg-app: #e8f5f1; --bg-panel: #ffffff; --text-main: #2c3e50; --text-muted: #7f8c8d; --border: #e2e8f0; --hover: #f8fafc; --brand-color: #00B894; }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  /* Pega tu CSS original aquí. He agregado la lógica del Blog abajo */
+  .app-container.show-blog .col-conceptos, .app-container.show-blog .col-tarjeta, .app-container.show-blog .col-form, .app-container.show-blog .col-game, .app-container.show-blog .col-cv { display: none !important; }
+  .app-container.show-blog .col-blog { display: block !important; }
+  
